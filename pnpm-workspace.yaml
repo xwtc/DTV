@@ -1,8 +1,8 @@
 packages:
   - "web"
 
-onlyBuiltDependencies:
-  - core-js
-  - es5-ext
-  - esbuild
-  - sharp
+allowBuilds:
+  core-js: true
+  es5-ext: true
+  esbuild: true
+  sharp: true
